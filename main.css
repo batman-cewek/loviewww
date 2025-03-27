@@ -111,17 +111,26 @@ body {
 }
 
 .six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   top: 10vh;
   z-index: 1;
 }
-
-.six img {
+.six img.profile-picture {
+  display: block;
+  width: 120px; /* Sesuaikan ukuran gambar */
+  height: auto;
+  margin-bottom: 20px; /* Memberikan jarak antara gambar dan teks */
+}
+/* .six img {
   display: block;
   width: auto;
   height: 300px;
   /* height: auto; */
-}
+/* } */
 
 .six .hat {
   left: 41.5%;
